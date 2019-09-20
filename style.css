@@ -44,7 +44,7 @@ header .toggle{
 	display: none;
 }
 #myimage img {
-	height: 400px;
+	height: 500px;
 	width: 100%;
 	object-fit: cover;
 }
@@ -53,6 +53,7 @@ header .toggle{
     background-color: var(--my-blue-color);
     color: white;
     padding: 10px;
+    padding-left: 10%;
 }
 #about p {
 	padding: 10px 20px;
@@ -157,7 +158,11 @@ header .toggle{
 
 #cv .cv-container{
 	margin: auto;
-	width: 80%;
+	width: 60%;
+	height: 1000px;
+}
+.cv-container embed{
+	zoom:150%;
 }
 #top-arrow a i{
 	position: fixed;
